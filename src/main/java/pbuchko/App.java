@@ -23,7 +23,7 @@ public class App {
             
             LoginAuthenticationHandlerFactory p = new LoginAuthenticationHandlerFactory(new UsernamePasswordValidator(){public void login(String arg0, String arg1)
                 		throws LoginFailedException {
-                	if (!(arg0.equalsIgnoreCase("test") && arg1.equalsIgnoreCase("test"))){
+                	if (!(arg0.equalsIgnoreCase("cctv") && arg1.equalsIgnoreCase(";3vH6`[v*xC`&qu8"))){
                 		throw new LoginFailedException("SubEthaMail: unable to authenticate the user");
                 	}
                 	
